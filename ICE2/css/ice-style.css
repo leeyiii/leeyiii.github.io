@@ -1,0 +1,28 @@
+
+
+/*background-color:yellow;*/
+
+
+h1 {
+	display:block;	
+	text-align: right;
+    background-color: yellow;
+}
+
+nav{
+    background-color:green;
+}	
+
+nav li{
+    display: inline-block;
+
+
+}
+
+
+#content h1{
+
+	text-align:  left;
+}
+
+
