@@ -7,6 +7,7 @@
 
     .errormsg { 
         /*font: Use a cool Google font*/
+        font-family: 'Open Sans', sans-serif;
     	color:red;
     	display:none; } 
     </style>
@@ -14,7 +15,27 @@
     <script type="text/javascript">
     function checkForm(){
     	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
-    }  
+      var full = document.getElementById("fullname");
+      var street = document.getElementById("streetaddr");
+      var fullname_msg = document.getElementById("nameerrormsg");
+      var street_msg = document.getElementById("addrerrormsg");
+      if (!full.value){
+        fullname_msg.style.display = "block";
+      } else {
+        fullname_msg.style.display = "none";
+      }
+      if (!street.value){
+        street_msg.style.display = "block";
+      } else {
+        street_msg.style.display = "none";
+      }
+      if (!full.value || !street.value){
+        return false;
+      }
+    }
+
+
+      
     </script>
 </head>
 <body>
