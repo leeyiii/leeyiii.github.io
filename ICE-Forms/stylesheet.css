@@ -1,0 +1,32 @@
+
+	
+	
+* {
+	
+	margin: 8px;
+	padding: 0;
+}
+
+
+
+h4{
+	font-family:open-sans, sans-serif;
+}
+
+
+label{
+	display: inline-block;
+	padding: .5%;
+	font-weight: normal;
+}
+
+fieldset{
+	background-color:#ffffff;
+	padding:5%;
+  margin: 20px;
+}
+
+form-group{
+	margin: 10px;
+}
+
