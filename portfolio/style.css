@@ -393,13 +393,9 @@ img.aligncenter {
 	width: 640px;
 }
 
-.page-template-template-full-width .page-content
-.page-template-template-portfolio .page-content,
+
 .portfolio-2col .page-content,
-.page-template-template-blog-full .page-content,
-.page-template-template-blog-grid .page-content,
-.single-project .page-content,
-.tax-project-category .page-content {
+.page-content {
 	width: 100%;
 }
 
@@ -756,7 +752,7 @@ img.aligncenter {
 	margin-bottom: 0;
 }
 	
-	.title1{
+.title1{
 
 	font-family: 'Montserrat';
 	font-weight:400;
@@ -765,6 +761,8 @@ img.aligncenter {
 	line-height:25px;
 	margin: 0 0 5px 0;
 	overflow:visible;
+	text-align:center;
+
 }
 
 .title2{
