@@ -219,6 +219,9 @@ ul {
 	padding: 0;
 }
 
+
+
+
 /* Alignments ------------------------*/
 
 .aligncenter {
@@ -328,9 +331,12 @@ img.aligncenter {
 	text-transform: uppercase;
 }
 
+.nav-menu .active a{
+	color:red;
+}
 
 .site-navigation a {
-	position: relative;
+	position: relative;v
 }
 
 .site-navigation a:before {
@@ -406,6 +412,12 @@ img.aligncenter {
 .type-page:last-child {
 	margin-bottom: 0;
 }
+
+
+.menu-site-navigation-container .icon{
+	 display: none;
+}
+
 
 
 
@@ -631,7 +643,7 @@ img.aligncenter {
 	}
 
 	.site-navigation .nav-menu {
-		display: none;
+		display: block;
 		z-index: 999;
 		position: absolute;
 		top: 100%;
@@ -660,8 +672,17 @@ img.aligncenter {
 		display: none;
 	}
 
+  
+
+
+
 	.portfolio-area .type-project {
 		width: 229px;
+	}
+
+
+	.page-content{
+		display:none;
 	}
 
 }
@@ -721,6 +742,9 @@ img.aligncenter {
     letter-spacing: 3px;
 
 }
+
+
+
 
 	.gallery-columns-2 .gallery-item {
 		max-width: 100%;
