@@ -24,7 +24,15 @@ body {
 	line-height: 20px;
 	background-color: #f5f5f5;
 	word-wrap: break-word;
+	background-image: url(img/pink.jpg);
 }
+
+
+
+
+
+
+
 
 .title1{
 
@@ -218,6 +226,8 @@ ul {
 	margin: 0 0 20px 20px;
 	padding: 0;
 }
+
+
 
 
 
@@ -681,9 +691,7 @@ img.aligncenter {
 	}
 
 
-	.page-content{
-		display:none;
-	}
+	
 
 }
 
