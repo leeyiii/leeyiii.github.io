@@ -1,12 +1,13 @@
 
 body{
-	background: url(images/pic.png) repeat;
-	min-height:100%;
-	
+	background: url(../images/pic.png) repeat;
+	height:100%;
+	width:100%;
+
 }
 
 img{
-	
+	box-sizing:border-box;
 	border-style:solid;
 	border-color:blue ;
 	border-width:5px;
