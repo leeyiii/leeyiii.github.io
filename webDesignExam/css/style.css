@@ -1,6 +1,8 @@
 
 body{
-	background: url(images/pic.png);
+	background: url(images/pic.png) repeat;
+	min-height:100%;
+	
 }
 
 img{
