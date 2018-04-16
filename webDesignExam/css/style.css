@@ -1,0 +1,13 @@
+
+body{
+	background-image: url(images/pic.png);
+}
+
+img{
+	
+	border-style:solid;
+	border-color:blue ;
+	border-width:5px;
+	padding: 5% 5%;
+}
+

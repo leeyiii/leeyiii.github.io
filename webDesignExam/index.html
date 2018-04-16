@@ -2,23 +2,47 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 		<title>
 			Bonnie-Exam2
 		</title>
+  
+    
+    <script type="text/javascript">
+	function toggleImage(){
+      var x= document.getElementById("imageleft");
+      var y=document.getElementById("imageright")
+      if (x.style.display ==="none"){
+        x.style.display="block";
+      }
+      else{
+        x.style.display= "none";
+        y.style.margin="0 auto"
+
+      }
+           
+	} 
+    </script>
+  
+  
 	</head>
 	<body>
 <h1>Bonnie</h1>
-<div class="image1">
-	<img src="images/examPic.JPG" alt="image1">
+<div class="container">
+	
+		<img src="images/examPic.JPG" id="imageleft" width="50%" height="50%" alt="image1">
+	
+
+	<div class="image2 ">
+		<img src="images/UMSI-logo.jpg" id="imageright" width="50% " height="50%" alt="image2">
+	</div>
 </div>
 
-<div class="image2">
-	<img src="images/UMSI-logo.jpg" alt="image2">
-</div>
+<button type="button" id="hide" onclick="toggleImage()">Hide Image</button>
+<button type="button" id="show" onclick="toggleImage()">Show Image</button>
 
-<button type="button" id="hide">Hide Image</button>
-<button type="button" id="show">Show Image</button>
-	</body>
+</body>
 
 
 </html>
